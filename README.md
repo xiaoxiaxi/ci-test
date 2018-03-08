@@ -1,5 +1,8 @@
 # ci-test
 
+[![Build Status](https://travis-ci.org/xiaoxiaxi/ci-test.svg?branch=master)](https://travis-ci.org/xiaoxiaxi/ci-test)
+[![Coverage Status](https://coveralls.io/repos/github/xiaoxiaxi/ci-test/badge.svg?branch=master)](https://coveralls.io/github/xiaoxiaxi/ci-test?branch=master)
+
 > A Vue.js project
 
 ## Build Setup
