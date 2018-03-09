@@ -1,13 +1,17 @@
 <template>
-  <div>
-      <div class="main_title">main</div>
-  </div>
+    <div>
+        <div class="list_title">list</div>
+        <p>
+
+        </p>
+    </div>
 </template>
 
 <script>
 export default {
   data () {
     return {
+
     }
   }
 }

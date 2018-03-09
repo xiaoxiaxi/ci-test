@@ -1,6 +1,9 @@
 <template>
     <div>
         <div class="about_title">about</div>
+        <p>
+            {{ msg }}
+        </p>
     </div>
 </template>
 
@@ -8,7 +11,7 @@
 export default {
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '好久不见，父老乡亲'
     }
   }
 }
