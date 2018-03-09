@@ -2,7 +2,7 @@
   <div id="app">
     <el-tabs @tab-click="handleClick">
       <el-tab-pane label="主页" name="main"></el-tab-pane>
-      <el-tab-pane label="列表" name="list"></el-tab-pane>      
+      <el-tab-pane label="列表" name="list"></el-tab-pane>
       <el-tab-pane label="关于" name="about"></el-tab-pane>
     </el-tabs>
     <router-view/>
