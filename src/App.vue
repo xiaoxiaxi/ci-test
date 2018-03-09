@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <el-tabs @tab-click="handleClick">
+      <el-tab-pane label="主页" name="main"></el-tab-pane>
+      <el-tab-pane label="关于" name="about"></el-tab-pane>
+    </el-tabs>
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    handleClick (tab, event) {
+      this.$router.push({ name: tab.name })
+    }
+  }
 }
 </script>
 
