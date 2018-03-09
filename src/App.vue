@@ -15,7 +15,7 @@ export default {
   methods: {
     handleClick (tab, event) {
       this.$router.push({ name: tab.name })
-    },
+    }
   }
 }
 </script>
