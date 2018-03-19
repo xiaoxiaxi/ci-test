@@ -28,10 +28,8 @@ before_script:
 after_script:
   - "sh -e /etc/init.d/xvfb stop"
 
-notifications:
-  irc:
-    channels:
-      - "chat.freenode.net#my-channel"
-      - "chat.freenode.net#some-other-channel"
-    on_success: change # default: always
-    on_failure: always # default: always
+email:
+  recipients:
+    - hzshaoyy@corp.netease.com
+  on_success: always
+  on_failure: always
