@@ -31,5 +31,7 @@ after_script:
 email:
   recipients:
     - hzshaoyy@corp.netease.com
+    - seedbob@gmail.com
+    - shaoyuyu@163.com
   on_success: always
   on_failure: always
